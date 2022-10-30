@@ -1,9 +1,9 @@
 *{  
     padding: 0;
     margin: 0;
-    color: rgb(143, 173, 229);
+    color: rgb(231, 239, 255);
     font-family: 'Roboto Condensed', sans-serif;
-    
+
     box-sizing: border-box;
 }
 
@@ -13,7 +13,7 @@
     --main-text-color: rgb(255, 255, 255);
     --border-color: rgba(242, 254, 2, 0.824);
     --bio-bg-color: rgb(37, 14, 51);
-    --bio-border-color: rgb(48, 86, 123);
+    --bio-border-color: rgb(114, 170, 226);
     --about-bg-color: rgb(10, 48, 48);
     --blank-color: rgb(255, 255, 255);
     --border-about:  rgb(48, 238, 149);
