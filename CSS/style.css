@@ -10,7 +10,7 @@
 /*Variables*/
 :root{
     --main-color: rgba(228, 236, 240, 0.667);
-    --main-text-color: rgb(98, 187, 226);
+    --main-text-color: rgb(255, 255, 255);
     --border-color: rgba(242, 254, 2, 0.824);
     --bio-bg-color: rgb(37, 14, 51);
     --bio-border-color: rgb(48, 86, 123);
@@ -203,6 +203,7 @@
 
 #btn-projects:hover{
     background-color: transparent;
+    color: #fff;
 }
 
 #skill-section{
@@ -214,7 +215,7 @@
 #skills-container{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 25px;
+    margin-top: 20px;
     
 }
 
@@ -225,7 +226,7 @@
 
 .skills-title{
     font-size: 24px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-weight: bold;
     padding-left: 10px;
     border-left: 5px solid var(--bio-border-color);
@@ -239,10 +240,54 @@
     border-left: 50px solid var(--bio-border-color);
 }
 
+.experience-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.experience-box{
+    flex: 1 1 0;   
+}
+.experience-title{
+    font-size: 50px;
+    border-left: 5px solid var(--bio-border-color);
+    transition: 0.5s;
+    color: rgb(211, 239, 235);
+    
+}
+.experience-title:hover{
+    border-left: transparent;
+    border-left: 50px solid var(--bio-border-color);
+    color: #fff;
+}
+
+.experience-institution{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.experience-description{
+    color: rgb(227, 255, 157);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.experience-activities{
+    text-align: justify;
+}
+
 .skill-box i{
     font-size: 50px;
     color: var(--main-color);
 }
+
+
+
+
 @media(max-width: 450px) {
     #container{
         flex-direction: column;
