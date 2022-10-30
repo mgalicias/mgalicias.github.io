@@ -234,6 +234,9 @@
     color: var(--blank-color);
 } 
 
+.experience-date{
+    margin-bottom: 30px;
+}
 
 .skills-title:hover{
     border-left: transparent;
