@@ -1,0 +1,108 @@
+* {
+
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+
+
+
+
+header {
+    background-color: #59A9B5;
+    padding: 3rem;
+}
+
+h6 a {
+    color: #E2F3F9;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.h2-title {
+    margin-bottom: 2rem;
+}
+
+main {
+    background-color: #E2F3F9;
+}
+
+nav {
+    background-color: #E2F3F9;
+}
+
+.text-content {
+    position: relative;
+    /*margin-left: 10rem;*/
+    font-size: 1.3rem;
+    width: 75%;
+    margin-left: 15%;
+    text-indent: 3mm each-line;
+}
+
+.main-content {
+    padding: 3rem;
+}
+
+p ul li{
+    font-size: 1.3rem;
+    
+    text-indent:2.1rem;
+ }
+
+.bg-blue {
+
+    background-color: #59A9B5;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-page {
+
+    background-color: #59A9B5;
+    font-size: 1rem;
+    margin: 0;
+    padding: 2.1rem;
+}
+
+.img-profile {
+    border-radius: 10%;
+    height: 22rem;
+    width: 22rem;
+    box-shadow: 1.625rem 1.625rem #438797;
+
+}
+
+
+
+.mg-brand {
+    /*color: rgb(50, 58, 61);*/
+    font-family: 'Bruno Ace', cursive;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    font-style: italic;
+    text-shadow: 1px 3px 1px #438797;
+}
+
+@media (max-width: 1000px) {
+    .d-flex {
+        flex: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    body{
+        width: 100%;
+    }
+    .text-content{
+        width: 100%;
+    }
+    main {
+        justify-content: center;
+    }
+
+}
+
+/*font-family: 'Bruno Ace', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Lobster', cursive;*/
