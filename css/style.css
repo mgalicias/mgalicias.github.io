@@ -46,7 +46,6 @@ nav {
 
 p ul li{
     font-size: 1.3rem;
-    
     text-indent:2.1rem;
  }
 
@@ -102,7 +101,15 @@ p ul li{
     }
     .profile-list{
         margin-top: 2rem;
+        width: 100%;
     }   
+    .bg-blue{
+        width: 100%;
+        margin: 0;
+    }
+    .text-content{
+        text-indent: 3mm each-line;
+    }
 }
 
 /*font-family: 'Bruno Ace', cursive;
