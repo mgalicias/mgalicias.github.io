@@ -35,8 +35,8 @@ nav {
     position: relative;
     /*margin-left: 10rem;*/
     font-size: 1.3rem;
-    width: 75%;
-    margin-left: 15%;
+    /*width: 75%;
+    margin-left: 15%;*/
     text-indent: 3mm each-line;
 }
 
@@ -100,7 +100,9 @@ p ul li{
     main {
         justify-content: center;
     }
-
+    .profile-list{
+        margin-top: 2rem;
+    }   
 }
 
 /*font-family: 'Bruno Ace', cursive;
